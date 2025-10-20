@@ -1,0 +1,30 @@
+.carousel-inner img{
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+    /* z-index: -5px; */
+
+/* position: relative; */
+
+}
+
+/* .carousel-inner{ */
+    
+    /* position: relative; */
+    /* z-index: -10px; */
+    
+
+    
+/* } */
+.nav-link{
+    color: #fff;
+}
+.navbar-nav .nav-link.active{
+    color: cyan;
+}
+
+
+
+.colColor{
+    height: 20px;
+}

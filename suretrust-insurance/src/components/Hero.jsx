@@ -1,5 +1,5 @@
 import React from 'react'
-import surelogo from '../assets/SuretrustLogo.png'
+import surelogo from '../assets/Surelogo-light.png'
 import Slider1 from '../assets/Slide-1.jpg'
 import Slider2 from '../assets/Slider-2.jpg'
 import Slider3 from '../assets/Slider-3.jpg'
@@ -20,19 +20,19 @@ const Hero = () => {
           <a className="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About Us</a>
+          <a className="nav-link" href="#about-us">About Us</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Services</a>
+          <a className="nav-link" href="#services">Services</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Plans</a>
+          <a className="nav-link" href="#plans">Plans</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Testimonials</a>
+          <a className="nav-link" href="#testimonials">Testimonials</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact Us</a>
+          <a className="nav-link" href="#contact">Contact Us</a>
         </li>
       </ul>
     </div>
@@ -48,23 +48,29 @@ const Hero = () => {
   <div className="carousel-inner">
     <div className="carousel-item active">
       <img src={Slider1} className="d-block w-100" alt="..." />
+      <div className='overlay'></div> 
       <div className="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5 className='fs-1'>Protect What Matters Most</h5>
+        <p>At SureTrust Insurance, your safety and financial peace come first. From life to property, we provide 
+           trusted coverage for individuals, families, and businesses across Nigeria.</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={Slider2} className="d-block w-100" alt="..." />
+      <div className='overlay'></div>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5 className='fs-1'>Insurance You Can Count On</h5>
+        <p>Life happens — but you can be ready. Our flexible insurance plans give you confidence to face the future, 
+          knowing you’re fully covered.</p>
       </div>
     </div>
     <div className="carousel-item">
       <img src={Slider3} className="d-block w-100" alt="..." />
+      <div className='overlay'></div>
       <div className="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
+        <h5 className='fs-1'>Your Future, Secured.</h5>
+        <p>Join thousands of Nigerians who trust SureTrust for affordable, transparent, and fast insurance solutions. 
+          Your tomorrow begins with the right protection today.</p>
       </div>
     </div>
   </div>

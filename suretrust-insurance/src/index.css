@@ -18,6 +18,11 @@
 /* } */
 .nav-link{
     color: #fff;
+    margin-right: 20px;
+    font-size: 18px !important;
+}
+.nav-link:hover{
+color:  cyan !important;
 }
 .navbar-nav .nav-link.active{
     color: cyan;
@@ -27,4 +32,29 @@
 
 .colColor{
     height: 20px;
+}
+
+
+
+.bg-primary{
+    background-color: #0e88d1;
+}
+/* .text-primary{
+    background-color: #0e88d1;
+} */
+
+.navbar-collapse{
+    flex-grow: 0;
+}
+.carousel-caption{
+    bottom: 40%;
+}
+
+.overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.679);
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }

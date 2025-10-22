@@ -39,7 +39,7 @@ const Hero = () => {
   </div>
 </nav>
 
-<div id="carouselExampleCaptions" className="carousel slide">
+<div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel" data-bs-interval ="2000">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
